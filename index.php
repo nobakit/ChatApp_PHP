@@ -57,7 +57,7 @@
             <?php
                 /// 直近30投稿の、投稿者、メッセージ、時間（UTC）を表示 ///
                 for($i = $cnt[0]-30; $i<$cnt[0]; $i++){
-                    print_r($result[$i]['name'].':'.$result[$i]['message'].'('.datetime($result[$i]['date'], 'JST').')'."<br>");
+                    print_r($result[$i]['name'].':'.$result[$i]['message'].'('.$result[$i]['date'].')'."<br>");
                 }
             ?>
         </p>
