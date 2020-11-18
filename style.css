@@ -1,0 +1,28 @@
+@charset "UTF-8";
+h2 {
+    margin-bottom: 1px;
+}
+.submit {
+    font-family: 'Yu Gothic','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #97cdf3;
+    color: #333333;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #009bc6;
+}
+.submit:hover {
+    background-color: cornsilk;
+    color: #009bc6;
+}
+
+#message {
+    min-height: 3rem;
+    width: 50%;
+    min-width: 22rem;
+}
+
+p.log {
+    background-color: #eaf6fd;
+}
